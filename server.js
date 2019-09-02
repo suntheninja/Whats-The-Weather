@@ -27,6 +27,8 @@ app.post('/',function(req, res){
           } else {
             let weatherText = `It's ${weather.main.temp} degrees in ${weather.name}!`;
             res.render('index', {weather: weatherText, error: null});
+          
+            console.log('city');
           }
         }
       });

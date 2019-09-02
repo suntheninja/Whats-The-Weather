@@ -1,0 +1,25 @@
+{
+  "name": "Whats-The-Weather",
+  "version": "1.0.0",
+  "description": "Simple Express, HTML/ JavaScript Web app to tell you the Weather",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suntheninja/Whats-The-Weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suntheninja/Whats-The-Weather/issues"
+  },
+  "homepage": "https://github.com/suntheninja/Whats-The-Weather#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
